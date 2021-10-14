@@ -1,0 +1,65 @@
+html,
+body,
+#header,
+#footer {
+    background: #494f5c;
+    color: #e8eef2;
+}
+#footer {
+    display: none;
+}
+
+#header h1 a {
+    color: #000000;
+}
+
+nav a {
+    color: #000000;
+}
+
+#main {
+    background-color: #494f5c;
+}
+
+.item__urls > a:first-child {
+    color: #13b59e;
+}
+
+.item__siteurl,
+.item__siteurl > *,
+.item__count {
+    color: #bbb;
+}
+
+.item__meta > * {
+    color: #e8eef2;
+}
+
+.item__notes {
+    color: #13b59e;
+}
+
+ul.pagination li a {
+    border: 2px solid #000000;
+    color: #e8eef2;
+}
+
+ul.pagination li a:visited {
+    color: #e8eef2;
+}
+
+ul.pagination li.active a {
+    border-color: #13b59e;
+    color: #13b59e;
+}
+
+.single code {
+    background: #282a36;
+    color: #eee;
+}
+
+pre {
+    border-radius: 4px;
+    padding: 0.7em 1.1em;
+    background-color: #282a36;
+}
