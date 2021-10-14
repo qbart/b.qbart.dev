@@ -2,3 +2,5 @@ baseURL = "https://b.qbart.dev"
 languageCode = "en-gb"
 title = "qbart's bookmarks"
 theme = "hugonews"
+
+disableKinds = ['sites']
